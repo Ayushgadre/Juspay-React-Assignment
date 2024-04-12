@@ -24,7 +24,7 @@ const Size = ({ character, comp_id }) => {
         <div className="grid grid-cols-2 my-2">
           {" "}
           {/* Grid layout */}
-          <div className="text-white">Size:</div> {/* Label */}
+          <div className="text-white"> Size:</div> {/* Label */}
           <input
             className="mx-2 p-1 py-0 text-center"
             type="number"

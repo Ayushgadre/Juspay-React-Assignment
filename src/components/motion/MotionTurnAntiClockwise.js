@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { connect } from "react-redux";
-import { setCharacterAngle } from "../../redux/ReduxCharacter/CharacterActions";
+import { setCharacterAngle } from "../../redux/Reduxcharacter/CharacterActions";
 import UndoIcon from "@material-ui/icons/Undo";
 import Paper from "@material-ui/core/Paper";
 
