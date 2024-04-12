@@ -29,47 +29,42 @@ const useStyles = makeStyles((theme) =>
 function PreviewArea({ character, add_character, set_active }) {
   const classes = useStyles();
   const [active, setActive] = useState(character.active);
+
+  // Variables for drag functionality
   var pos1 = 0,
     pos2 = 0,
     pos3 = 0,
     pos4 = 0;
-
   let elmnt = null;
 
+  // Function to handle mouse drag for character elements
   function dragMouseDown(e, id) {
     elmnt = document.getElementById(id);
-
     e = e || window.event;
     e.preventDefault();
-    // get the mouse cursor position at startup:
     pos3 = e.clientX;
     pos4 = e.clientY;
     document.onmouseup = closeDragElement;
-    // call a function whenever the cursor moves:
     document.onmousemove = elementDrag;
   }
 
   function elementDrag(e) {
     e = e || window.event;
     e.preventDefault();
-    // calculate the new cursor position:
     pos1 = pos3 - e.clientX;
     pos2 = pos4 - e.clientY;
     pos3 = e.clientX;
     pos4 = e.clientY;
-    // set the element's new position:
-
     elmnt.style.top = elmnt.offsetTop - pos2 + "px";
     elmnt.style.left = elmnt.offsetLeft - pos1 + "px";
   }
 
   function closeDragElement() {
-    /* stop moving when mouse button is released:*/
     document.onmouseup = null;
     document.onmousemove = null;
   }
 
-  // handle changing active character
+  // Handle changing active character
   const handleChange = (e) => {
     setActive(e.target.value);
     set_active(e.target.value);
@@ -110,7 +105,6 @@ function PreviewArea({ character, add_character, set_active }) {
             </Select>
           </FormControl>
         </div>
-
         <div>
           <Button
             variant="contained"
@@ -133,6 +127,7 @@ function PreviewArea({ character, add_character, set_active }) {
               onMouseDown={(e) => dragMouseDown(e, `${x.id}-${i}`)}
             >
               <div id={`${x.id}-div`} className="character">
+                {/* Additional character elements */}
                 <div
                   className="hidden border-2 p-2 ml-3 mb-2 w-auto whitespace-nowrap"
                   id={x.id + "-message-box"}
@@ -141,6 +136,7 @@ function PreviewArea({ character, add_character, set_active }) {
                   className="hidden rounded-full border-2 w-4 left-1/2 h-4 ml-3 mb-2 whitespace-nowrap"
                   id={x.id + "-message-box1"}
                 ></div>
+                {/* Cat sprite component */}
                 <CatSprite charac_id={x.id} />
               </div>
             </div>
@@ -151,14 +147,14 @@ function PreviewArea({ character, add_character, set_active }) {
   );
 }
 
-// mapping state to props
+// Mapping state to props
 const mapStateToProps = (state) => {
   return {
     character: state.character,
   };
 };
 
-// mapping functions to components
+// Mapping functions to components
 const mapDispatchToProps = (dispatch) => {
   return {
     add_character: () => dispatch(addCharacter()),

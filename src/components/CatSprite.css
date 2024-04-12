@@ -1,0 +1,14 @@
+/* CSS for the .character class with transition properties */
+.character {
+  /* Transition properties with a duration of 2 seconds */
+  transition: 
+    width 2s, /* Smooth transition for width changes */
+    height 2s, /* Smooth transition for height changes */
+    background-color 2s, /* Smooth transition for background color changes */
+    transform 2s, /* Smooth transition for transform changes */
+    position 2s, /* Smooth transition for position changes */
+    left 2s, /* Smooth transition for left position changes */
+    right 2s, /* Smooth transition for right position changes */
+    scale 2s, /* Smooth transition for scaling */
+    top 2s; /* Smooth transition for top position changes */
+}
