@@ -57,17 +57,19 @@ This Task covers main features of 4 sections of MIT Scratch
 Almost All functions are attached with **transition**.
 There might be time lag in executing few functions. Please have a little patience 😊
 
-## NOT FOR ANY COMMERCIAL PURPOSES
+## Screenshots
+
+![ss0](<Screenshot (171).png>)
+
+![ss1](<Screenshot (173).png>)
+
+![ss2](<Screenshot (174).png>)
+
+![ss3](<Screenshot (175).png>)
+
+![ss4](<Screenshot (180).png>)
 
 To get started:
 
 - Run `npm i` to install dependencies
 - Run `npm start` and open http://localhost:3000 to see the app
-
-## Screenshots
-
-![ss0](<Screenshot (171).png>)
-![ss1](<Screenshot (173).png>)
-![ss2](<Screenshot (174).png>)
-![ss3](<Screenshot (175).png>)
-![ss4](<Screenshot (180).png>)
