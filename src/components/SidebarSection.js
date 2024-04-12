@@ -60,7 +60,7 @@ export default function Sidebar() {
       <div className="w-60 flex-none h-full overflow-y-auto flex flex-col items-start p-2 border-r border-gray-200">
         {/* Sidebar title */}
         <div className="font-bold mb-5 text-center border border-2 rounded text-black p-2 w-auto">
-          Side Bar
+          Side Bar Section
         </div>
 
         {/* Render components based on selection */}

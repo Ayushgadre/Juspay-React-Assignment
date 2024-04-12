@@ -1,7 +1,10 @@
 import React, { useState } from "react";
-import CatSprite from "./CatSprite";
+import CatSprite from "./SpriteCat";
 import { connect } from "react-redux";
-import { addCharacter, setActive } from "../redux/character/actions";
+import {
+  addCharacter,
+  setActive,
+} from "../redux/ReduxCharacter/CharacterActions";
 import { createStyles, makeStyles } from "@material-ui/core/styles";
 import InputLabel from "@material-ui/core/InputLabel";
 import MenuItem from "@material-ui/core/MenuItem";
@@ -77,12 +80,12 @@ function PreviewArea({ character, add_character, set_active }) {
     >
       <div className="flex justify-between mb-10">
         <div className="font-bold mb-5 text-center border border-2 rounded text-black p-2 w-auto">
-          Preview Area
+          Preview Section
         </div>
         <div>
           <FormControl className={classes.formControl}>
             <InputLabel shrink id="demo-simple-select-placeholder-label-label">
-              Active
+              Select
             </InputLabel>
             <Select
               labelId="demo-simple-select-placeholder-label-label"
@@ -113,7 +116,7 @@ function PreviewArea({ character, add_character, set_active }) {
             startIcon={<AddCircleIcon />}
             onClick={() => add_character()}
           >
-            Create{" "}
+            Create New{" "}
           </Button>
         </div>
       </div>

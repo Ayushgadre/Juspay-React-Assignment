@@ -1,4 +1,4 @@
-import { ADD_LIST, SET_LIST, SET_ACTIVE_BLOCK, DELETE_BLOCK } from "./types";
+import { ADD_LIST, SET_LIST, SET_ACTIVE_BLOCK, DELETE_BLOCK } from "./MidTypes";
 
 // Initial state for the list reducer
 const initialState = {

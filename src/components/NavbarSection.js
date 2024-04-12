@@ -10,18 +10,20 @@ export default function Navbar() {
           <div className="flex items-center">
             <img
               className="h-8 w-auto"
-              src="https://scratch.mit.edu/favicon.ico"
+              src="https://juspay.in/logo_juspay.svg"
               alt="Scratch Logo"
             />
             <span className="text-white font-bold ml-2 text-lg">
-              Scratch Editor
+              Juspay Visual Code Editor
             </span>
           </div>
 
-          {/* Sign in link */}
           <div className="flex items-center">
-            <a href="#" className="text-white hover:text-gray-200 font-medium">
-              Sign in
+            <a
+              href="https://github.com/Ayushgadre"
+              className="text-white hover:text-gray-200 font-medium"
+            >
+              GitHub
             </a>
           </div>
         </div>

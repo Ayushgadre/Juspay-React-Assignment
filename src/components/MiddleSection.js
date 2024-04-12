@@ -69,14 +69,14 @@ function MidArea({
       <div className="flex justify-between">
         {/* Mid Area title */}
         <div className="font-bold mb-5 text-center border-2 rounded text-black p-2 w-auto">
-          Mid Area
+          Middle Section
         </div>
 
         {/* Active component dropdown */}
         <div>
           <FormControl className={classes.formControl}>
             <InputLabel shrink id="demo-simple-select-placeholder-label-label">
-              Active
+              Select
             </InputLabel>
             <Select
               labelId="demo-simple-select-placeholder-label-label"
@@ -104,7 +104,7 @@ function MidArea({
             startIcon={<AddIcon />}
             onClick={() => add_list()}
           >
-            Code Block
+            Add Code Block
           </Button>
         </div>
       </div>

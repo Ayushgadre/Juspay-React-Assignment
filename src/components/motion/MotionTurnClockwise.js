@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { connect } from "react-redux";
-import { setCharacterAngle } from "../../redux/character/actions";
+import { setCharacterAngle } from "../../redux/ReduxCharacter/CharacterActions";
 import RedoIcon from "@material-ui/icons/Redo";
 import Paper from "@material-ui/core/Paper";
 
@@ -40,7 +40,7 @@ const TurnClockWise = ({ character, characterAngle, comp_id }) => {
         >
           <div className="flex mx-auto">
             Turn
-            <RedoIcon className="mx-2" /> {angle} degrees
+            <RedoIcon className="mx-2" /> {angle} Degrees
           </div>
         </div>
       </div>

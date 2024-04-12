@@ -1,4 +1,4 @@
-import { SET_LIST, ADD_LIST, SET_ACTIVE_BLOCK, DELETE_BLOCK } from "./types";
+import { SET_LIST, ADD_LIST, SET_ACTIVE_BLOCK, DELETE_BLOCK } from "./MidTypes";
 
 // Action creator to update a list with a new list
 export const updateList = (id, new_list) => {

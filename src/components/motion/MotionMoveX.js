@@ -32,7 +32,7 @@ const Move = ({ character, comp_id }) => {
           value={steps}
           onChange={(e) => setSteps(parseInt(e.target.value))} // Update steps on input change
         />{" "}
-        steps {/* Text label */}
+        Steps {/* Text label */}
       </div>
     </Paper>
   );

@@ -1,20 +1,20 @@
 import React from "react";
 import Move from "./motion/Move";
-import TurnAntiClockwise from "./motion/TurnAntiClockwise";
-import TurnClockwise from "./motion/TurnClockwise";
-import GotoXY from "./motion/Goto";
-import SayMessage from "./looks/SayMessage";
-import SayMessageWithTimer from "./looks/SayMessageWithTimer";
-import Size from "./looks/Size";
-import Show from "./looks/Show";
-import Hide from "./looks/Hide";
-import Wait from "./control/Wait";
-import Repeat from "./control/Repeat";
-import HideMessage from "./looks/HideMessage";
-import MoveY from "./motion/MoveY";
-import BroadcastMessage from "./events/broadcast";
-import Think from "./looks/Think";
-import ThinkWithTimer from "./looks/ThinkWithTimer";
+import TurnAntiClockwise from "./motion/MotionTurnAntiClockwise";
+import TurnClockwise from "./motion/MotionTurnClockwise";
+import GotoXY from "./motion/MotionGoto";
+import SayMessage from "./looks/LooksSayMessage";
+import SayMessageWithTimer from "./looks/LooksSayMessageWithTimer";
+import Size from "./looks/LooksSize";
+import Show from "./looks/LooksShow";
+import Hide from "./looks/LooksHide";
+import Wait from "./control/ControlWait";
+import Repeat from "./control/ControlRepeat";
+import HideMessage from "./looks/LooksHideMessage";
+import MoveY from "./motion/MotionMoveY";
+import BroadcastMessage from "./events/EventBroadcast";
+import Think from "./looks/LooksThink";
+import ThinkWithTimer from "./looks/LooksThinkWithTimer";
 
 // Function to fetch components based on different keys
 export const getComponent = (key, id) => {
