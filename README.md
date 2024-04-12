@@ -1,72 +1,73 @@
 # Juspay-React-Assignment
 
-# Getting Started with Create React App
+Deployed at : https://ayushgadre-juspay-task.vercel.app/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This Task covers main features of 4 sections of MIT Scratch
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Drag and Drop your favourite functions to the lists
+- Move functions between lists
+- If you want to remove any function from Middle Section just drag and drop outside list
+- You can create as many sprints as you want
+- Move the sprint around Preview Section using Mouse
+- Choose Sprint for which you want to execute you GUI Program
+- Create as many as you like program lists
+- Create long programs
 
-### `npm start`
+### Sections
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- #### Motion
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  1. Move in horizontal and vertical direction
+  2. Rotate (Clockwise and Anti-Clockwise)
+  3. Goto coordinate
 
-### `npm test`
+- #### Looks
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  1. You want your sprint to say some message
+  2. Show Message for some duration
+  3. Thinking ability to Sprint
+  4. Think for some defined time
+  5. Disappear thoughts
+  6. Show Sprint
+  7. Hide Sprint
 
-### `npm run build`
+- #### Events
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  1. Broadcast a Message (Notification)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- #### Control
+  1. Wait for some duration
+  2. Repeat certain functions for speicified amount of times
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Tech Stack
 
-### `npm run eject`
+1. ReactJS - Utilized for building interactive and responsive user interfaces, ensuring a smooth user experience.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### Libraraies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. TailwindCSS - Employs utility-first CSS for rapid and consistent styling across the application, enhancing visual appeal and user engagement.
+2. Notistack - Integrates notifications and alerts into the user interface, improving feedback and user interaction.
+3. Redux - Manages state and data flow within the application, enabling efficient data handling and application state management.
+4. Material UI - Incorporates pre-built UI components for design consistency and faster development cycles.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+##### NOTE:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Almost All functions are attached with **transition**.
+There might be time lag in executing few functions. Please have a little patience 😊
 
-## Learn More
+## NOT FOR ANY COMMERCIAL PURPOSES
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To get started:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Run `npm i` to install dependencies
+- Run `npm start` and open http://localhost:3000 to see the app
 
-### Code Splitting
+## Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![ss0](<Screenshot (171).png>)
+![ss1](<Screenshot (173).png>)
+![ss2](<Screenshot (174).png>)
+![ss3](<Screenshot (175).png>)
+![ss4](<Screenshot (180).png>)
