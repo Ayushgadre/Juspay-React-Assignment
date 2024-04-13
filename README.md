@@ -57,10 +57,6 @@ This Task covers main features of 4 sections of MIT Scratch (Motion, Looks, Cont
 Almost All functions are attached with **transition**.
 There might be time lag in executing few functions. Please have a little patience 😊
 
-## Task Video -
-
-![Video](<./src/assets/Juspay Task.mp4>)
-
 ## Screenshots
 
 ![ss0](<./src/assets/Screenshot (181).png>)
