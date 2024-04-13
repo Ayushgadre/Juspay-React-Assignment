@@ -59,15 +59,15 @@ There might be time lag in executing few functions. Please have a little patienc
 
 ## Screenshots
 
-![ss0](<Screenshot (171).png>)
+![ss0](<./src/assets/Screenshot (171).png>)
 
-![ss1](<Screenshot (173).png>)
+![ss1](<./src/assets/Screenshot (173).png>)
 
-![ss2](<Screenshot (174).png>)
+![ss2](<./src/assets/Screenshot (174).png>)
 
-![ss3](<Screenshot (175).png>)
+![ss3](<./src/assets/Screenshot (175).png>)
 
-![ss4](<Screenshot (180).png>)
+![ss4](<./src/assets/Screenshot (180).png>)
 
 To get started:
 
