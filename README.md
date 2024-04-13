@@ -59,7 +59,7 @@ There might be time lag in executing few functions. Please have a little patienc
 
 ## Task Video -
 
-![vv0](<./src/assets/Juspay Task.mp4>)
+![Video](<./src/assets/Juspay Task.mp4>)
 
 ## Screenshots
 
