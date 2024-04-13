@@ -2,7 +2,7 @@
 
 Deployed at : https://ayushgadre-juspay-task.vercel.app/
 
-This Task covers main features of 4 sections of MIT Scratch
+This Task covers main features of 4 sections of MIT Scratch (Motion, Looks, Control and Event.)
 
 ## Features
 
