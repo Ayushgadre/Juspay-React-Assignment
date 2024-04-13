@@ -59,7 +59,7 @@ There might be time lag in executing few functions. Please have a little patienc
 
 ## Screenshots
 
-![ss0](<./Screenshots/Screenshot (181).png)
+![ss0](<./Screenshots/Screenshot (181).png>)
 
 ![ss1](<./Screenshots/Screenshot (183).png>)
 
@@ -67,7 +67,7 @@ There might be time lag in executing few functions. Please have a little patienc
 
 ![ss3](</Screenshots/Screenshot (185).png>)
 
-![ss4](<./Screenshots/Screenshot (186).pn>)
+![ss4](<./Screenshots/Screenshot (186).png>)
 
 To get started:
 
