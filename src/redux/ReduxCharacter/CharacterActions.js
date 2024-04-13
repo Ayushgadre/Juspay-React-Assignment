@@ -1,5 +1,5 @@
 // Importing action types
-import { ADD_CHARACTER, SET_ACTIVE_CHARACTER, SET_ANGLE } from "./actionTypes";
+import { ADD_CHARACTER, SET_ACTIVE_CHARACTER, SET_ANGLE } from "./CharacterActionTypes";
 
 // Action creator to set the angle of a character
 export const setCharacterAngle = (characterAngle) => {

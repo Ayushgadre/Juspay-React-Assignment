@@ -8,7 +8,8 @@ export default function Icon({ name, size = 20, className = "" }) {
       width={size.toString() + "px"} // Setting width dynamically based on size prop
       height={size.toString() + "px"} // Setting height dynamically based on size prop
     >
-      <use xlinkHref={`/icons/solid.svg#${name}`} /> {/* Using SVG sprite */}
+      <use xlinkHref={`/icons/solid.svg#${name}`} />{" "}
+      {/* Using SVG sprite and apply*/}
     </svg>
   );
 }

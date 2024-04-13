@@ -58,9 +58,9 @@ const ThinkMessage = ({ character, comp_id }) => {
         <div
           id={comp_id}
           className="flex text-center flex-row flex-wrap bg-purple-900 text-white px-2 py-1 my-2 text-sm cursor-pointer"
-          onClick={() => displayMessage()} // Call displayMessage function on click
+          onClick={() => displayMessage()} //Call displayMessage function on click
         >
-          {`Think ${state.message}`} {/* Display the Think message */}
+          {`Think ${state.message}`} {/* Display  the Think message */}
         </div>
       </div>
     </Paper>

@@ -6,7 +6,7 @@ import {
   looksComponents,
   controlComponents,
   eventsComponents,
-} from "./SidebarConstants";
+} from "./SidebarSectionConstants";
 
 // Sidebar component to display different component categories
 export default function Sidebar() {

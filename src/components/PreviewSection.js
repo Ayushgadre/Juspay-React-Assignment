@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import {
   addCharacter,
   setActive,
-} from "../redux/ReduxCharacter/CharacterActions";
+} from "../redux/Reduxcharacter/CharacterActions";
 import { createStyles, makeStyles } from "@material-ui/core/styles";
 import InputLabel from "@material-ui/core/InputLabel";
 import MenuItem from "@material-ui/core/MenuItem";
